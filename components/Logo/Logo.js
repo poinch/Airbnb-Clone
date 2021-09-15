@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logoImg from '../../public/Airbnb_Logo_.svg.webp'
+import logoImg from '../../public/Airbnb_Logo.svg.webp'
 
 function Logo() {
   return (
