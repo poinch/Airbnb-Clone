@@ -1,6 +1,6 @@
-import Logo from '../../Logo/Logo'
-import SearchBar from '../../SearchBar/SearchBar'
-import UserBar from '../../UserBar/UserBar'
+import Logo from '../Logo/Logo'
+import SearchBar from '../SearchBar/SearchBar'
+import UserBar from '../UserBar/UserBar'
 
 function Header() {
   return (
