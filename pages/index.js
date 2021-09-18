@@ -3,7 +3,7 @@ import Header from '../components//Header/Header'
 import Banner from '../components/Banner/Banner'
 import ExploreNearby from '../components/Explore Nearby/ExploreNearby'
 import LiveAnywhere from '../components/Live Anywhere/LiveAnywhere'
-import LargeCard from '../LargeCard/LargeCard'
+import LargeCard from '../components/LargeCard/LargeCard'
 
 export default function Home({ exploreNearbyData, liveAnywhereData }) {
   return (
