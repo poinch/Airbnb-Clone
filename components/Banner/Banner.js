@@ -16,7 +16,7 @@ function Banner() {
         <p className='text-sm sm:text-lg'>
           Not sure where to go? Perfect.
         </p>
-        <Button text="I'm Flexible" color='purple' />
+        <Button buttonText="I'm Flexible" />
       </div>
     </div>
   )
