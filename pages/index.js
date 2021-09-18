@@ -4,6 +4,7 @@ import Banner from '../components/Banner/Banner'
 import ExploreNearby from '../components/Explore Nearby/ExploreNearby'
 import LiveAnywhere from '../components/Live Anywhere/LiveAnywhere'
 import LargeCard from '../components/LargeCard/LargeCard'
+import Footer from '../components/Footer/Footer'
 
 export default function Home({ exploreNearbyData, liveAnywhereData }) {
   return (
@@ -25,6 +26,7 @@ export default function Home({ exploreNearbyData, liveAnywhereData }) {
           buttonText='Get Inspired'
         />
       </main>
+      <Footer />
     </div>
   )
 }
