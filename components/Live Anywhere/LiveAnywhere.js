@@ -1,4 +1,4 @@
-import MediumCard from '../MediumCard/MediumCard';
+import MediumCard from '../Live Anywhere/MediumCard/MediumCard';
 
 function LiveAnywhere({ liveAnywhereData }) {
   return (

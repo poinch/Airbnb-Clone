@@ -1,4 +1,4 @@
-import SmallCard from '../SmallCard/SmallCard'
+import SmallCard from '../Explore Nearby/SmallCard/SmallCard'
 
 function ExploreNearby({ exploreNearbyData }) {
   return (
