@@ -5,6 +5,7 @@ import { format } from 'date-fns'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 import Results from '../components/Results/Results'
+import Map from '../components/Map/Map'
 
 function Search({ searchResults }) {
   const router = useRouter()
@@ -35,6 +36,9 @@ function Search({ searchResults }) {
             <p className='button'>More filters</p>
           </div>
           <Results searchResults={searchResults} />
+        </section>
+        <section className='hidden xl:inline-flex xl:min-w-[600px]'>
+          <Map searchResults={searchResults} />
         </section>
       </main>
       <Footer />
